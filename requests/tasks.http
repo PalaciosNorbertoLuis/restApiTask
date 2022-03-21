@@ -1,0 +1,32 @@
+
+GET http://localhost:3000/api/tasks
+
+###
+GET http://localhost:3000/api/tasks?size=4&page=0&title=Worpres
+
+###
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Hacer un sitio web en Wix",
+    "description":"trabajo"
+}
+
+###
+
+GET http://localhost:3000/api/tasks/623896d5601ebe99f67d20e22
+
+
+###
+DELETE http://localhost:3000/api/tasks/6238c18497deda26593c6139
+
+###
+
+PUT http://localhost:3000/api/tasks/623896d5601ebe99f67d20e4 
+Content-Type: application/json
+
+{
+    "title":"Hacer un sitio web en Worpres"
+}
