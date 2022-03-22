@@ -12,8 +12,8 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	<h4>Para consultar todos los registros</h4>
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 <div>
-	<p id="sample">GET https://nu9nm7.sse.codesandbox.io/api/tasks </p>
-	<a href="#" onclick="CopyToClipboard('sample');return false;">Copy Text</a>
+	<p>GET https://nu9nm7.sse.codesandbox.io/api/tasks </p>
+	
  </div>
 <P>Ejemplo de respusta</p>
 
@@ -50,14 +50,4 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 </article>
 
 
-<script>
-function CopyToClipboard('sample')
-{
-var r = document.createRange();
-r.selectNode(document.getElementById('sample'));
-window.getSelection().removeAllRanges();
-window.getSelection().addRange(r);
-document.execCommand('copy');
-window.getSelection().removeAllRanges();
-}
-</script>
+
