@@ -57,7 +57,7 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 <p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar consultas de una tarea</p>
 
 <h6>Ejemplo de respusta</h6>
-
+<pre>
 {
 	"_id": "6239ed0151c96585e1ec1208",
 	"title": "Hacer un sitio web en Wix",
@@ -66,5 +66,21 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 	"createdAt": "2022-03-22T15:36:33.076Z",
 	"updatedAt": "2022-03-22T15:36:33.076Z"
 }
+</pre>
 
+<h4>Para actualizar un registro</h4>
+
+<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
+<pre>	
+<p>PUT https://nu9nm7.sse.codesandbox.io/api/tasks/6239ed0151c96585e1ec1208</p>
+</pre>
+<p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar la modificacion</p>
+
+<h6>ejemplo para modificar titulo</h6>
+<p>se puede modificar: title, description,done(boolean)</p>
+<pre>
+{
+    "title":"Hacer un sitio web en Worpres"
+}
+</pre>
 
