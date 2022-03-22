@@ -7,14 +7,13 @@ REST API usando Nodejs, Express, Mongodb y algunos módulos extras de Node como 
 
 Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</a>  
 
-<div style =" border: 2px solid powderblue; padding: 30px;">
-	GET https://nu9nm7.sse.codesandbox.io/api/tasks
-</div>
-
 
 <article>
 	<h4>Para consultar todos los registros</h4>
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
+		<div style =" border: 2px solid powderblue; padding: 30px;">
+			GET https://nu9nm7.sse.codesandbox.io/api/tasks
+		</div>
 <P>Ejemplo de respusta</p>
 
   {
@@ -49,5 +48,14 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 }
 </article>
 
+<article>
+	<h4>Para consultar un registro</h4>
+	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
+		<div>
+		<p style =" border: 2px solid powderblue; padding: 30px;">GET https://nu9nm7.sse.codesandbox.io/api/tasks/<span style="color:red">6239ed0151c96585e1ec1208</span></p>
+		</div>
+<P>Ejemplo de respusta</p>
+
+</article>
 
 
