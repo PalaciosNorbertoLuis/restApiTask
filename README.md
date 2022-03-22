@@ -11,12 +11,10 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	<h4>Para consultar todos los registros</h4>
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 <div>
-  GET https://nu9nm7.sse.codesandbox.io/api/tasks
-</div>
+	<i> GET https://nu9nm7.sse.codesandbox.io/api/tasks </i>
+ </div>
 <P>Ejemplo de respusta</p>
-	<input id="input" type="text"/>
-<button id="copy">Copy</button>
-<code>	
+
   {
 	"docs": [
 		{
@@ -47,5 +45,4 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	"prevPage": null,
 	"nextPage": null
 }
-	</code>
 </article>
