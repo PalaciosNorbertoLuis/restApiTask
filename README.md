@@ -7,9 +7,9 @@ REST API usando Nodejs, Express, Mongodb y algunos módulos extras de Node como 
 
 Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</a>  
 
-
+<h4>Para consultar todos los registros</h4>
 <article>
-	<h4>Para consultar todos los registros</h4>
+	
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 		<div style =" border: 2px solid powderblue; padding: 30px;">
 			GET https://nu9nm7.sse.codesandbox.io/api/tasks
@@ -48,14 +48,23 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 }
 </article>
 
+<h4>Para consultar un registro</h4>
 <article>
-	<h4>Para consultar un registro</h4>
+	
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 		<div>
-		<p style =" border: 2px solid powderblue; padding: 30px;">GET https://nu9nm7.sse.codesandbox.io/api/tasks/<span style="color:red">6239ed0151c96585e1ec1208</span></p>
+		<p>GET https://nu9nm7.sse.codesandbox.io/api/tasks/6239ed0151c96585e1ec1208</p>
 		</div>
+	<p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar consultas de una tarea</p>
 <P>Ejemplo de respusta</p>
-
+{
+	"_id": "6239ed0151c96585e1ec1208",
+	"title": "Hacer un sitio web en Wix",
+	"description": "trabajo",
+	"done": false,
+	"createdAt": "2022-03-22T15:36:33.076Z",
+	"updatedAt": "2022-03-22T15:36:33.076Z"
+}
 </article>
 
 
