@@ -11,7 +11,7 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 <article>
 	<h4>Para consultar todos los registros</h4>
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
-<div>
+<div style=" border: 2px solid powderblue; padding: 30px;">
 	<p>GET https://nu9nm7.sse.codesandbox.io/api/tasks </p>
 	
  </div>
