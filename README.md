@@ -1,3 +1,4 @@
+
 # restApiTask
 
 REST API usando Nodejs, Express, Mongodb y algunos módulos extras de Node como babel y Mongoose.
@@ -11,7 +12,8 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	<h4>Para consultar todos los registros</h4>
 	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 <div>
-	<i> GET https://nu9nm7.sse.codesandbox.io/api/tasks </i>
+	<p id="sample">GET https://nu9nm7.sse.codesandbox.io/api/tasks </p>
+	<a href="#" onclick="CopyToClipboard('sample');return false;">Copy Text</a>
  </div>
 <P>Ejemplo de respusta</p>
 
@@ -46,3 +48,16 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	"nextPage": null
 }
 </article>
+
+
+<script>
+function CopyToClipboard(id)
+{
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+}
+</script>
