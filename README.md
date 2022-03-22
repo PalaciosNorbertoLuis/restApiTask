@@ -14,8 +14,8 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 GET https://nu9nm7.sse.codesandbox.io/api/tasks
 </pre>
 
-<P>Ejemplo de respusta</p>
-
+<h6>Ejemplo de respusta</h6>
+<pre>
   {
 	"docs": [
 		{
@@ -46,6 +46,7 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 	"prevPage": null,
 	"nextPage": null
 }
+</pre>
 
 <h4>Para consultar un registro</h4>
 
@@ -55,7 +56,8 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 </pre>
 <p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar consultas de una tarea</p>
 
-<P>Ejemplo de respusta</p>
+<h6>Ejemplo de respusta</h6>
+
 {
 	"_id": "6239ed0151c96585e1ec1208",
 	"title": "Hacer un sitio web en Wix",
