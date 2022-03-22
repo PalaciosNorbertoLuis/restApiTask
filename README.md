@@ -13,6 +13,7 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 </div>
 <P>Ejemplo de respusta</p>
 <div>
+	<p>
   {
 	"docs": [
 		{
@@ -43,4 +44,5 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 	"prevPage": null,
 	"nextPage": null
 }
+	</p>
 </div>
