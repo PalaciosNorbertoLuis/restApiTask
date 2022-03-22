@@ -84,3 +84,10 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 }
 </pre>
 
+<h4>Para eliminar un registro</h4>
+
+<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
+<pre>	
+<p>DELETE https://nu9nm7.sse.codesandbox.io/api/tasks/6239ed0151c96585e1ec1208</p>
+</pre>
+<p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para eliminar el registro</p>
