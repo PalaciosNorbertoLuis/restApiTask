@@ -51,10 +51,10 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 
 
 <script>
-function CopyToClipboard(id)
+function CopyToClipboard('sample')
 {
 var r = document.createRange();
-r.selectNode(document.getElementById(id));
+r.selectNode(document.getElementById('sample'));
 window.getSelection().removeAllRanges();
 window.getSelection().addRange(r);
 document.execCommand('copy');
