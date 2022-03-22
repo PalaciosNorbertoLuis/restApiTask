@@ -14,7 +14,8 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
   GET https://nu9nm7.sse.codesandbox.io/api/tasks
 </div>
 <P>Ejemplo de respusta</p>
-	
+	<input id="input" type="text"/>
+<button id="copy">Copy</button>
 <code>	
   {
 	"docs": [
