@@ -10,10 +10,10 @@ Ver <a href="https://nu9nm7.sse.codesandbox.io/api/tasks" target="_blank">demo</
 <h4>Para consultar todos los registros</h4>
 <P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
 
-<article>
+<pre>
 GET https://nu9nm7.sse.codesandbox.io/api/tasks
-</article>
-		
+</pre>
+
 <P>Ejemplo de respusta</p>
 
   {
@@ -48,13 +48,13 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 }
 
 <h4>Para consultar un registro</h4>
-<article>
-	
-	<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
-		<div>
-		<p>GET https://nu9nm7.sse.codesandbox.io/api/tasks/6239ed0151c96585e1ec1208</p>
-		</div>
-	<p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar consultas de una tarea</p>
+
+<P>Utilizar aplicaciones como PostMan, Insomnia, etc</p>
+<pre>	
+<p>GET https://nu9nm7.sse.codesandbox.io/api/tasks/6239ed0151c96585e1ec1208</p>
+</pre>
+<p>lo que se agrega es el ID (6239ed0151c96585e1ec1208) para realizar consultas de una tarea</p>
+
 <P>Ejemplo de respusta</p>
 {
 	"_id": "6239ed0151c96585e1ec1208",
@@ -64,6 +64,5 @@ GET https://nu9nm7.sse.codesandbox.io/api/tasks
 	"createdAt": "2022-03-22T15:36:33.076Z",
 	"updatedAt": "2022-03-22T15:36:33.076Z"
 }
-</article>
 
 
