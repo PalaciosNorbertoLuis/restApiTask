@@ -29,10 +29,7 @@ app.use(_express["default"].urlencoded({
 })); //rutas
 
 app.get("/", function (req, res) {
-  //res.redirect("/api/tasks");
-  res.json({
-    mesagge: "Hola mundo"
-  });
+  res.redirect("/api/tasks");
 });
 app.use("/api/tasks", _tasks["default"]);
 var _default = app;

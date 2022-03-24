@@ -16,8 +16,7 @@ app.use(express.urlencoded({extended:false}));
 
 //rutas
 app.get("/", (req, res) => {
-  //res.redirect("/api/tasks");
-  res.json({mesagge:"Hola mundo"})
+  res.redirect("/api/tasks");
 });
 app.use("/api/tasks", TasksRoutes);
 
