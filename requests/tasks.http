@@ -2,15 +2,16 @@
 GET http://localhost:3000/api/tasks
 
 ###
-GET http://localhost:3000/api/tasks?size=4&page=0&title=Worpres
+GET http://localhost:3000/api/tasks?size=4&page=1
 
 ###
 
 POST http://localhost:3000/api/tasks
+//POST https://nu9nm7.sse.codesandbox.io/api/tasks
 Content-Type: application/json
 
 {
-    "title": "Hacer un sitio web en Wix",
+    "title": "Modificaciones BackEnd (fotos)",
     "description":"trabajo"
 }
 
